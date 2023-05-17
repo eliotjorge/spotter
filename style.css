@@ -88,7 +88,7 @@ section {
   height: 100%;
   border-radius: 0 0 0 0;
   -webkit-transition: -webkit-transform 0.8s;
-  border-top: 1px solid #D2FF28;
+  border-top: 2px solid #D2FF28;
   overflow: auto;
 }
 section.one {
@@ -244,4 +244,107 @@ section {
 
 .body-map__muscle:hover {
   color: #D2FF28;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*Pesos ToDo*/
+.container {
+  margin: 110px auto;
+  text-align: center;
+  overflow: hiddden;
+}
+
+h2 {
+  background: #0e1111;
+  padding: 20px 20px;
+  color: #D2FF28;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  margin: 0 0;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #FFF;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #FFF;
+  font-size: 20px;
+}
+
+.list {
+  background: #34495E;
+  height: 500px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0 -40px;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding: 30px;
+  transition: all 0.3s ease;
+  color: #FFF;
+  font-size: 16px;
+}
+
+li:hover {
+  background: #2C3E50;
+}
+
+.check {
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  width: 15px;
+  height: 15px;
+  margin: 0 20px;
+  float: right;
+  transition: all 0.3s ease;
+  cursor: default;
+  padding: 3px;
+}
+
+.remove {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin: 0 0;
+  background-position: center;
+  background-size: 10px;
+  transition: all 0.3s ease;
+  cursor: default;
+  padding: 4px;
+}
+
+.remove:hover {
+  background: #B43C52;
+  padding: 4px;
+  cursor: default;
+}
+
+.selected {
+  background: url(https://cdn-icons-png.flaticon.com/512/5610/5610944.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  background-position: center;
+  background-size: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid green;
+  cursor: default;
+}
+
+/*FIN PESOS*//*# sourceMappingURL=style.css.map */
