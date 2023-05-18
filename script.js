@@ -56,12 +56,10 @@ $(document).on("click", ".check", function() {
 
 });
 
-// When enter key is pressed append a new item to the list
-
   $(document).on("click", "#anadir", function() {
-    
-    $(".list").append("<li>" +$(".toDo").val() + "<span class='check'>" + "</span>" + "<img class='remove' width='20' src='https://cdn-icons-png.flaticon.com/512/8689/8689959.png'/>" + "</li>");
-
+    if($(".toDo").val() != 0){
+    $(".list").append("<li>" +$(".toDo").val() + "<span class='check'>" + "</span>" + "<img class='remove' src='https://cdn-icons-png.flaticon.com/512/8689/8689959.png'/>" + "</li>");
+    }
     $(".toDo").val('');
   
 });
